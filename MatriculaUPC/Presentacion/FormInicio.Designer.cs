@@ -34,6 +34,7 @@
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarYCursoMasAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ordenarAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarAlumnosPorEdadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +62,8 @@
             // 
             this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.buscarYCursoMasAlumnosToolStripMenuItem,
-            this.ordenarAlumnosToolStripMenuItem});
+            this.ordenarAlumnosToolStripMenuItem,
+            this.buscarAlumnosPorEdadToolStripMenuItem});
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
             this.reportesToolStripMenuItem.Text = "Reportes";
@@ -87,6 +89,13 @@
             this.ordenarAlumnosToolStripMenuItem.Text = "Ordenar Alumnos";
             this.ordenarAlumnosToolStripMenuItem.Click += new System.EventHandler(this.ordenarAlumnosToolStripMenuItem_Click);
             // 
+            // buscarAlumnosPorEdadToolStripMenuItem
+            // 
+            this.buscarAlumnosPorEdadToolStripMenuItem.Name = "buscarAlumnosPorEdadToolStripMenuItem";
+            this.buscarAlumnosPorEdadToolStripMenuItem.Size = new System.Drawing.Size(272, 26);
+            this.buscarAlumnosPorEdadToolStripMenuItem.Text = "Buscar Alumnos por Edad";
+            this.buscarAlumnosPorEdadToolStripMenuItem.Click += new System.EventHandler(this.buscarAlumnosPorEdadToolStripMenuItem_Click);
+            // 
             // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -111,6 +120,7 @@
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem buscarYCursoMasAlumnosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ordenarAlumnosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem buscarAlumnosPorEdadToolStripMenuItem;
     }
 }
 

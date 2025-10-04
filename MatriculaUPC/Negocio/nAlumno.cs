@@ -39,5 +39,10 @@ namespace MatriculaUPC.Negocio
         {
             return datosAlumno.OrdenarTodosLosAlumnosPorNombreDesc();
         }
+
+        public List<Alumno> BuscarAlumnosPorEdad(int edad)
+        {
+            return datosAlumno.BuscarAlumnosPorEdad(edad);
+        }
     }
 }

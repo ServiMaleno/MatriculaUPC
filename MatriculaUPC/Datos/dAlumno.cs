@@ -39,5 +39,12 @@ namespace MatriculaUPC.Datos
             List<Alumno> todosLosAlumnos = cursos.SelectMany(c => c.listaAlumnos).ToList();
             return todosLosAlumnos.OrderByDescending(a => a.nombreAlumno).ToList();
         }
+
+        public List<Alumno> BuscarAlumnosPorEdad(int edad)
+        {
+            List<Curso> cursos = datosCurso.ListarCursos();
+            List<Alumno> todosLosAlumnos = cursos.SelectMany(c => c.listaAlumnos).ToList();
+            return todosLosAlumnos.Where(a => a.edadAlumno == edad).ToList();
+        }
     }
 }

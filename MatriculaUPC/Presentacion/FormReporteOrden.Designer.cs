@@ -39,7 +39,7 @@
             // 
             this.btnAscendente.Location = new System.Drawing.Point(57, 33);
             this.btnAscendente.Name = "btnAscendente";
-            this.btnAscendente.Size = new System.Drawing.Size(215, 35);
+            this.btnAscendente.Size = new System.Drawing.Size(217, 45);
             this.btnAscendente.TabIndex = 0;
             this.btnAscendente.Text = "Ordenar Ascendentemente";
             this.btnAscendente.UseVisualStyleBackColor = true;
@@ -47,9 +47,9 @@
             // 
             // btnDescendente
             // 
-            this.btnDescendente.Location = new System.Drawing.Point(315, 33);
+            this.btnDescendente.Location = new System.Drawing.Point(306, 33);
             this.btnDescendente.Name = "btnDescendente";
-            this.btnDescendente.Size = new System.Drawing.Size(215, 35);
+            this.btnDescendente.Size = new System.Drawing.Size(224, 45);
             this.btnDescendente.TabIndex = 1;
             this.btnDescendente.Text = "Ordenar Descendentemente";
             this.btnDescendente.UseVisualStyleBackColor = true;

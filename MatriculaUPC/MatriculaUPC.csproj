@@ -58,6 +58,12 @@
     <Compile Include="Presentacion\FormAlumnos.Designer.cs">
       <DependentUpon>FormAlumnos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\FormBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\FormBuscar.Designer.cs">
+      <DependentUpon>FormBuscar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\FormCursos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Presentacion\FormAlumnos.resx">
       <DependentUpon>FormAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\FormBuscar.resx">
+      <DependentUpon>FormBuscar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\FormCursos.resx">
       <DependentUpon>FormCursos.cs</DependentUpon>

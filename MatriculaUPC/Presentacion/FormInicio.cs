@@ -54,5 +54,11 @@ namespace MatriculaUPC.Presentacion
             FormReporteOrden formReporteOrden = new FormReporteOrden();
             formReporteOrden.Show();
         }
+
+        private void buscarAlumnosPorEdadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormBuscar formBuscar = new FormBuscar();
+            formBuscar.Show();
+        }
     }
 }
