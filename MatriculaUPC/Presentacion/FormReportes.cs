@@ -28,6 +28,7 @@ namespace MatriculaUPC.Presentacion
             txtBuscarCurso.Focus();       // Colocar el foco en el TextBox
         }
 
+        //Reportes del lado de Presentacion
         private void btnCursoMasAlumnos_Click(object sender, EventArgs e)
         {
             List<Curso> cursosConMasAlumnos = negocioCurso.CursosConMasAlumnos();
@@ -56,6 +57,7 @@ namespace MatriculaUPC.Presentacion
             
         }
 
+        //Buscar por código de curso
         private void btnBuscarCurso_Click(object sender, EventArgs e)
         {
             

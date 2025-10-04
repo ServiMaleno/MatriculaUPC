@@ -29,6 +29,7 @@ namespace MatriculaUPC.Negocio
             return datosAlumno.ListarAlumnos(codigoCursoSeleccionado);
         }
 
+        //Reportes del lado del Negocio
         public List<Alumno> OrdenarTodosLosAlumnosPorNombreAsc()
         {
             return datosAlumno.OrdenarTodosLosAlumnosPorNombreAsc();

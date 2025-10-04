@@ -19,6 +19,7 @@ namespace MatriculaUPC.Presentacion
             InitializeComponent();
         }
 
+        //Reportes del lado de Presentacion
         private void btnAscendente_Click(object sender, EventArgs e)
         {
             dgvAlumnosOrdenados.DataSource = null;

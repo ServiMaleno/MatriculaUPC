@@ -26,6 +26,7 @@ namespace MatriculaUPC.Datos
             return cursoSeleccionado.listaAlumnos;
         }
 
+        //Reportes del lado de Datos
         public List<Alumno> OrdenarTodosLosAlumnosPorNombreAsc()
         {
             List<Curso> cursos = datosCurso.ListarCursos();
